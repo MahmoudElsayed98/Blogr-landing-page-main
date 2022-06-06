@@ -137,6 +137,9 @@ body {
   color: var(--mainColor);
   border-color: var(--textColor);
 }
+.navbar .dropdown-menu li a:active {
+  background-color: var(--hoverColor);
+}
 @media (max-width: 991px) {
   .navbar-nav {
     background-color: var(--textColor);
@@ -180,9 +183,6 @@ body {
     text-align: center;
     border: none;
     background-color: #eee;
-  }
-  .navbar .dropdown-menu li a:active {
-    background-color: var(--hoverColor);
   }
   .landing::after {
     transform: scale(4.75) translate(251px, -9px);
